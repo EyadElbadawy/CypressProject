@@ -56,17 +56,8 @@ Data Driven Approach*
 15. change 'New User' username
 16. click on submit
 
- 17.Search for the modified 'username'    
- 18.✏️Verify that 'new username' is visible 
+17.Search for the modified 'username'    
+18.✏️Verify that 'new username' is visible 
 
- 19.Delete 'new user'
- 20.✏️ Confirm the deletion of the user
-
-
-
-
-
-
-
-
- 
+19.Delete 'new user'
+20.✏️ Confirm the deletion of the user
