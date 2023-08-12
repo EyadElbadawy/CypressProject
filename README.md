@@ -13,7 +13,7 @@ OrangeHRM GUI testing using Cypress
  
  *Mocha*
  
- *Chai *
+ *Chai*
  
  *HTML Reports*
  
@@ -42,22 +42,22 @@ Data Driven Approach*
 4. Click on 'Login' button
 5. Enter 'admin' credentials
 6. Click 'Signin' button
-7.✏️Verify that 'dashboard' is visible
+✏️Verify that 'dashboard' is visible
 
-8. Go to admin portal
-9. Add new user
-10. Fill user info , username and password
-11. Click enter to submit new User info
+7. Go to admin portal
+8. Add new user
+9. Fill user info , username and password
+10. Click enter to submit new User info
 
-12. Search for New user
-13.✏️Verify that 'New user' is visible
+11. Search for New user
+✏️Verify that 'New user' is visible
 
-14. Edit 'New User' info
-15. change 'New User' username
-16. click on submit
+12. Edit 'New User' info
 
-17.Search for the modified 'username'    
-18.✏️Verify that 'new username' is visible 
+13. change 'New User' username
 
-19.Delete 'new user'
-20.✏️ Confirm the deletion of the user
+14. click on submit
+
+15.Search for the modified 'username'    ✏️Verify that 'new username' is visible 
+
+16.Delete 'new user' ✏️ Confirm the deletion of the user
