@@ -36,8 +36,8 @@ Data Driven Approach*
  - ### 🔍️ Covered Test case in this project :
 #### ✅Test Case 1: Register User
 1. Launch browser
-2. Navigate to url '[http://automationexercise.com](https://opensource-demo.orangehrmlive.com)'
-3. Run in viewport(1224, 1068
+2. Navigate to url '[http://opensource-demo.orangehrmlive.com](https://opensource-demo.orangehrmlive.com)'
+3. Run in viewport(1224, 1068)
 
 4. Click on 'Login' button
 5. Enter 'admin' credentials
