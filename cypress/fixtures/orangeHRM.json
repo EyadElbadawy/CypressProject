@@ -1,0 +1,9 @@
+{
+  "username": "Admin",
+  "password": "admin123",
+  "expected": "Dashboard",
+  "employeeUsername": "EyaaadMuhamedd",
+  "employeePassword": "eyad123",
+  "employeeConfirmPassword": "eyad123",
+  "newUsername": "EyadElbadawii"
+}
