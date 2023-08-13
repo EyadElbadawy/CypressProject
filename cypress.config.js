@@ -14,6 +14,7 @@ module.exports = defineConfig({
             require('cypress-mochawesome-reporter/plugin')(on);
 
         },
+        
         "include": ["./node_modules/cypress", "cypress/**/*.js"],
          baseUrl:"https://opensource-demo.orangehrmlive.com/"
 

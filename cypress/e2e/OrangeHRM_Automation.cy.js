@@ -15,6 +15,7 @@ describe('Creating, editing & Deleting user in the database', function () {
   beforeEach(function () {
     // executes prior each test within it block
     cy.viewport(1224, 1068);
+    cy.fixture('orangeHRM').as('data');
   })
   //run once before starting the test
   before(function () {
@@ -23,7 +24,7 @@ describe('Creating, editing & Deleting user in the database', function () {
 
   it('E2E user creation scenario', function () {
 
-    cy.fixture('orangeHRM').then(function (data) {
+    cy.get('@data').then(function (data) {
       const ln = new Login();
       ln.setUserName(data.username);
       ln.setPassword(data.password);
@@ -37,7 +38,7 @@ describe('Creating, editing & Deleting user in the database', function () {
     hp.clickAdd();
 
     // Add User
-    cy.fixture('orangeHRM').then(function (data) {
+    cy.get('@data').then(function (data) {
       //choosing the role
       const ad = new AddUser();
       ad.enteringUserRole();
@@ -56,7 +57,7 @@ describe('Creating, editing & Deleting user in the database', function () {
     })
 
     // Searching Employee
-    cy.fixture('orangeHRM').then(function (data) {
+    cy.get('@data').then(function (data) {
       cy.wait(6000);
       const sp = new Search();
       //enter username
@@ -68,7 +69,7 @@ describe('Creating, editing & Deleting user in the database', function () {
     })
 
     //Edit Employee
-    cy.fixture('orangeHRM').then(function (data) {
+    cy.get('@data').then(function (data) {
       const ep = new Edit();
       //clear user
       ep.clearuser();
@@ -79,7 +80,7 @@ describe('Creating, editing & Deleting user in the database', function () {
     })
 
     // To Delete Employee
-    cy.fixture('orangeHRM').then(function (data) {
+    cy.get('@data').then(function (data) {
       cy.wait(6000);
       const dp = new Delete();
       //search user
